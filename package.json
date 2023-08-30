@@ -1,0 +1,34 @@
+{
+  "name": "@rajasuman09/streak-counter",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajasuman09/streak-counter"
+  },
+  "author": "Raja Suman <rajasuman09@gmail.com",
+  "license": "MIT",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "source": "src/index.ts",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "default": "./dist/index.modern.js"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.4",
+    "@types/jsdom": "^21.1.2",
+    "jest": "^29.6.4",
+    "jsdom": "^22.1.0",
+    "microbundle": "^0.15.1",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
