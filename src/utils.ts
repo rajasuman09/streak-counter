@@ -7,3 +7,8 @@ export interface Streak {
     startDate: string,
     lastLoginDate: string
 }
+
+export const diffInDays = (firstDate:Date, secondDate:Date):number =>{
+    const diff = Math.abs(firstDate.getTime() - secondDate.getTime());
+    return diff/(1000*3600*24);
+}

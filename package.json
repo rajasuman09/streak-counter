@@ -1,13 +1,13 @@
 {
   "name": "@rajasuman09/streak-counter",
   "version": "0.0.1",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/rajasuman09/streak-counter"
   },
   "author": "Raja Suman <rajasuman09@gmail.com",
   "license": "MIT",
-  "type": "module",
   "types": "./dist/index.d.ts",
   "source": "src/index.ts",
   "exports": {
