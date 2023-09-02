@@ -1,7 +1,6 @@
 {
   "name": "@rajasuman09/streak-counter",
   "version": "0.0.2",
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/rajasuman09/streak-counter"
